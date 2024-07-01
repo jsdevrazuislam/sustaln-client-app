@@ -13,7 +13,7 @@ const AboutUs = () => {
               A better way to Build <br className="hidden md-xl:block" /> with
               performance <br className="hidden md-xl:block" /> based designs
             </h1>
-            <Button className="hidden md:flex mt-14 !text-black hover:!text-white" arrowIconEnable={true} />
+            <Button className="hidden md:flex mt-14 hover:!text-black" arrowIconEnable={true} />
           </div>
           <div className="w-full md:w-[45%]">
             <p className="text-primary-textColor font-[400] text-[0.85em] md:text-[1.05em] mb-6">

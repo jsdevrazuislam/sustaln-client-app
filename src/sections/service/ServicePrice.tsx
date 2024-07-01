@@ -33,7 +33,7 @@ const ServicePrice = () => {
                   </div>
                 ))}
               </ul>
-              <button className="mt-8 outline_button !text-black w-full hover:!text-white">
+              <button className="mt-8 outline_button w-full hover:!text-black">
                 Get Started Now
               </button>
             </div>

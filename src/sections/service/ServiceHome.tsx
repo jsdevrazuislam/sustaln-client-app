@@ -93,7 +93,7 @@ const ServiceHome = () => {
                   Maintain Sustainability
                 </p>
               </div>
-              <Button arrowIconEnable={true} className="mt-10 mx-auto md-xl:mx-0 !text-black hover:!text-white" />
+              <Button arrowIconEnable={true} className="mt-10 mx-auto md-xl:mx-0 hover:!text-black" />
             </div>
           </div>
         </div>

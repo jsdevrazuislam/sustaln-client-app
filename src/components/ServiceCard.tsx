@@ -9,7 +9,7 @@ interface IServiceCard {
 const ServiceCard = ({ icon, title, description }: IServiceCard) => {
   return (
     <div
-      className="rounded-xl px-[.9em] py-[2em] w-full md:w-[45%] md-xl:w-[30%] transition-all duration-300 ease-in-out hover:bg-primary-light hover:text-white group"
+      className="rounded-xl px-[.9em] py-[2em] cursor-pointer w-full md:w-[45%] md-xl:w-[30%] transition-all duration-300 ease-in-out hover:bg-primary-light hover:text-white group"
       style={{
         boxShadow: "10px 10px 48px 0px #00000014",
       }}

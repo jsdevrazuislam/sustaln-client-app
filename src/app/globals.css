@@ -40,11 +40,11 @@ h6 {
     @apply max-w-[71.25em] mx-auto px-6 py-4;
   }
   .app_button {
-    @apply px-8 py-2 border-2 border-primary-secondary text-white rounded-[2em] text-[0.8em] transition-all duration-300 ease-in-out hover:bg-primary-secondary;
+    @apply px-8 py-2 bg-primary-secondary hover:outline-2 hover:outline hover:!bg-transparent hover:outline-primary-secondary text-white rounded-[2em] text-[0.8em] transition-all duration-300 ease-in-out hover:bg-primary-secondary;
   }
 
   .outline_button{
-    @apply border-primary-light border-2 text-white rounded-[5.2em] text-[0.9em] px-5 py-2 mt-8 mb-8 hover:bg-primary-light transition-all duration-300 ease-in-out
+    @apply hover:outline-primary-light bg-primary-light  hover:!bg-transparent hover:outline-2 hover:outline text-white rounded-[5.2em] text-[0.9em] px-5 py-2 mt-8 mb-8 hover:bg-primary-light transition-all duration-300 ease-in-out
   }
 
   .sec_padding {
