@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@300;400;500;600;700;800;900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  overflow-x: hidden;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.no-scroll {
+  overflow: hidden;
+}
+
+a,
+button,
+p,
+span,
+input,
+input::placeholder,
+tspan,
+ul,
+li {
+  font-family: "Plus Jakarta Sans", sans-serif !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Inknut Antiqua", serif;
+}
+
+@layer utilities {
+  .container {
+    @apply max-w-[71.25em] mx-auto px-6 py-4;
+  }
+  .app_button {
+    @apply px-8 py-2 border-2 border-primary-secondary text-white rounded-[2em] text-[0.8em] transition-all duration-300 ease-in-out hover:bg-primary-secondary;
+  }
+
+  .outline_button{
+    @apply border-primary-light border-2 text-white rounded-[5.2em] text-[0.9em] px-5 py-2 mt-8 mb-8 hover:bg-primary-light transition-all duration-300 ease-in-out
+  }
+
+  .sec_padding {
+    @apply py-12;
+  }
+}
+
+.hero_bg {
+  background-image: url("/background/ornament_hero.png");
+  background-position: center;
+  background-size: cover;
+  height: 100%;
+}
+.about_certification_bg {
+  background-image: url("/background/about_certification.png");
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: cover;
+  height: 100dvh;
+}
+
+.custom-border {
+  border: 0.5px solid;
+  border-image-source: linear-gradient(
+    270deg,
+    rgba(0, 0, 0, 0) 1.8%,
+    #ffffff 40.15%,
+    rgba(255, 255, 255, 0) 100.78%
+  );
+  border-image-slice: 1;
+}
+
+.custom-border-bottom {
+  border-bottom: 0.5px solid;
+  border-image-source: linear-gradient(
+    270deg,
+    rgba(0, 0, 0, 0) 1.8%,
+    #ffffff 40.15%,
+    rgba(255, 255, 255, 0) 100.78%
+  );
+  border-image-slice: 0;
+}
+
+.apexcharts-legend.apexcharts-align-center {
+  display: none;
+}
+
+@media (max-width:62em){
+  .about_certification_bg {
+    height: 65dvh;
+    background-size: contain;
+  }
+}
+@media (max-width:48em){
+  .about_certification_bg {
+    height: 75dvh;
+  }
+}
+
+@media (max-width: 39em) {
+  .hero_bg {
+    background-image: none;
+  }
+  .about_certification_bg {
+    height: 100%;
+  }
+  .custom-border {
+    border: none;
+  }
+  .custom-border-bottom {
+    border-image-slice: 1;
+  }
+}
+
+

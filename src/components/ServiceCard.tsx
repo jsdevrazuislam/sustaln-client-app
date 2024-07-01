@@ -1,0 +1,26 @@
+import React from "react";
+
+interface IServiceCard {
+  icon: JSX.Element;
+  title: string;
+  description: string;
+}
+
+const ServiceCard = ({ icon, title, description }: IServiceCard) => {
+  return (
+    <div
+      className="rounded-xl px-[.9em] py-[2em] w-full md:w-[45%] md-xl:w-[30%] transition-all duration-300 ease-in-out hover:bg-primary-light hover:text-white group"
+      style={{
+        boxShadow: "10px 10px 48px 0px #00000014",
+      }}
+    >
+      <div className="flex gap-3 items-center justify-start mb-5">
+        <div className="text-primary-light group-hover:text-white">{icon}</div>
+        <h3 className="text-primary-light group-hover:text-white text-[1.3em] md:text-[1.1em]">{title}</h3>
+      </div>
+      <p className="text-[.9em]">{description}</p>
+    </div>
+  );
+};
+
+export default ServiceCard;
