@@ -24,7 +24,7 @@ const Header = () => {
       />
       <nav className="container">
         <div className="flex justify-between items-center">
-          <button onClick={handleNavigation}>
+          <button onClick={handleNavigation} className="block md:hidden">
             <MenuIcon className="block md:hidden" />
           </button>
           <Link href="/">

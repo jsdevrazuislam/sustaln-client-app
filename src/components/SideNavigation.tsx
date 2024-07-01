@@ -3,7 +3,7 @@ import Image from "next/image";
 import React, { useEffect } from "react";
 import UserAvatar from "@/assets/avatar.png";
 import Link from "next/link";
-import ColorLogo from "@/assets/logo-color.png";
+import ColorLogo from "@/assets/logo-color.webp";
 
 interface IProps {
   isActive: boolean;

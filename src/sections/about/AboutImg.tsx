@@ -1,9 +1,9 @@
 import SvgBackground from "@/components/Bg";
 import Image from "next/image";
-import AboutImgMain from "@/assets/about_main.png";
-import AboutImg2 from "@/assets/about_2.png";
-import AboutImg3 from "@/assets/about_3.png";
-import AboutImg4 from "@/assets/about_4.png";
+import AboutImgMain from "@/assets/about_main.webp";
+import AboutImg2 from "@/assets/about_2.webp";
+import AboutImg3 from "@/assets/about_3.webp";
+import AboutImg4 from "@/assets/about_4.webp";
 import Aos from "@/components/Aos";
 
 const AboutImg = () => {

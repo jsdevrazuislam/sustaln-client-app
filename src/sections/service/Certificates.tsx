@@ -1,13 +1,12 @@
 import SecTitle from "@/components/SecTitle";
 import Image from "next/image";
 import React from "react";
-import Logo1 from "@/assets/customer/logo.png";
-import Logo2 from "@/assets/customer/logo-1.png";
-import Logo3 from "@/assets/customer/logo-2.png";
-import Logo4 from "@/assets/customer/logo-3.png";
-import Logo5 from "@/assets/customer/logo-4.png";
+import Logo1 from "@/assets/customer/logo.webp";
+import Logo2 from "@/assets/customer/logo-1.webp";
+import Logo3 from "@/assets/customer/logo-2.webp";
+import Logo4 from "@/assets/customer/logo-3.webp";
+import Logo5 from "@/assets/customer/logo-4.webp";
 
-// const logos = [Logo1, Logo2, Logo3, Logo4, Logo5];
 
 const Certificates = () => {
   return (

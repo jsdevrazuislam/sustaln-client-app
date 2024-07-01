@@ -4,7 +4,7 @@ import React from "react";
 import dynamic from "next/dynamic";
 import { ApexOptions } from "apexcharts";
 import Image from "next/image";
-import FooterChartImageAbout from "@/assets/about_chart_footer.png";
+import FooterChartImageAbout from "@/assets/about_chart_footer.webp";
 
 const Chart = dynamic(() => import("react-apexcharts"), { ssr: false });
 
