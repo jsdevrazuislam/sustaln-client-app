@@ -2,10 +2,22 @@ import React from "react";
 import SecTitle from "@/components/SecTitle";
 import ServiceCard from "@/components/ServiceCard";
 import { IServiceCard } from "@/data/serviceCardData";
+import ServiceImage from "@/assets/ornament_service.png";
+import Image from "next/image";
+import SvgBackground from "@/components/Bg";
 
 const OurService = () => {
   return (
-    <section className="sec_padding">
+    <>
+    <section className="py-12 md:py-0 relative">
+      <Image
+        className="absolute md-xl:top-10 left-0 md-xl:left-20 hidden md:block"
+        src={ServiceImage.src}
+        alt="sustaIn"
+        width={164}
+        height={228}
+      />
+      <SvgBackground />
       <div className="container">
         <SecTitle
           title="What We Do"
@@ -26,6 +38,7 @@ engineers and technologists."
         </div>
       </div>
     </section>
+    </>
   );
 };
 

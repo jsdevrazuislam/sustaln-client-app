@@ -97,7 +97,7 @@ const ServiceHome = () => {
             </div>
           </div>
         </div>
-        <SvgBackground className="mt-[-3%] md:hidden" />
+        <SvgBackground className="mt-10 md:mt-[-3%] !block" />
       </section>
     </>
   );
