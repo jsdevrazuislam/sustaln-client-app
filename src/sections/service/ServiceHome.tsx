@@ -23,34 +23,34 @@ const ServiceHome = () => {
         <div className="container">
           <BorderTitle title="Our" subTitle="Services" />
           <div className="flex md-xl:flex-row justify-center md-xl:justify-start items-center md-xl:items-start text-center md-xl:text-left flex-col gap-8 mt-6">
-            <div className="w-full md-xl:w-1/2 relative flex md-xl:block justify-center items-center">
+            <div className="w-full mt-10 md-xl:w-1/2 relative flex md-xl:block justify-center items-center">
                 <Image
                   src={ServicePerson.src}
                   alt="sustAIn"
                   width={520}
                   height={300}
-                  className="w-[16em] xl:w-[20em] relative z-[99] mt-10"
+                  className="w-[16em] xl:w-[26em] relative z-[99] mt-10"
                 />
                 <Image
                   src={ServiceCircle.src}
                   alt="sustAIn"
                   width={520}
                   height={300}
-                  className="w-[20em] xl:w-[25em] absolute top-[-12%]"
+                  className="w-[20em] xl:w-[31em] absolute top-[-12%]"
                 />
                 <Image
                   src={ServiceGroup.src}
                   alt="sustAIn"
                   width={520}
                   height={300}
-                  className="w-[20em] xl:w-[25em]  absolute top-[-20%]"
+                  className="w-[20em] xl:w-[31em]  absolute top-[-20%]"
                 />
               <Image
                 src={ServiceTechnologyImage.src}
                 alt="sustAIn"
                 width={268}
                 height={82}
-                className="absolute hidden md:block w-[50%] bottom-[45%] right-[9%] md-xl:right-[23%] h-16 object-contain"
+                className="absolute hidden md:block bottom-[45%] right-[9%] md-xl:right-[12%]"
                 data-aos="fade-right"
                 data-aos-duration="800"
               />
@@ -59,7 +59,7 @@ const ServiceHome = () => {
                 alt="sustAIn"
                 width={268}
                 height={82}
-                className="absolute hidden md:block w-[50%] bottom-[-2%]  md-xl:bottom-0 z-[99] h-16 object-contain"
+                className="absolute hidden md:block bottom-[-2%] md:bottom-[-11%]  md-xl:bottom-0 md-xl:left-[12%] z-[99]"
                 data-aos="fade-bottom"
                 data-aos-duration="3000"
               />
@@ -68,7 +68,7 @@ const ServiceHome = () => {
                 alt="sustAIn"
                 width={268}
                 height={82}
-                className=" absolute hidden md:block w-[50%] bottom-[52%] left-[11%] md-xl:left-[-20%] h-16 object-contain"
+                className=" absolute hidden md:block bottom-[52%] left-[11%] md-xl:left-[-13%]"
                 data-aos="fade-left"
                 data-aos-duration="2000"
               />
@@ -102,28 +102,28 @@ const ServiceHome = () => {
             </div>
             <div className="w-full md-xl:w-1/2">
               <HeadingTitle
-                className="leading-[1.2em] text-[2.5em] mb-8 capitalize hidden md-xl:block"
+                className="leading-[1.2em] text-[2.5em] font-[600] mb-8 capitalize hidden md-xl:block"
                 firstTitle="The Perfect way to"
                 secondTitle="Design Green-Buildings"
               />
               <HeadingTitle
-                className="text-[1.8em] md-xl:hidden leading-[1.2em] mb-2 capitalize"
+                className="text-[1.8em] mt-10 md-xl:hidden leading-[1.2em] mb-2 capitalize"
                 firstTitle="Our Services"
               />
-              <p className="text-[1.1em] md:text-[0.8em] mx-auto md-xl:m-0 max-w-[23em] mb-8">
+              <p className="text-[1.1em] font-[500] mx-auto md-xl:m-0 max-w-[23em] mb-8">
                 Marrying innovation with resourcefulness!
               </p>
               <div className="mt-8 flex-wrap gap-5 flex items-center">
-                <p className="text-[0.8em] !text-left md:!text-center md-xl:!text-left md-xl:text-[1em] text-primary-light font-[600] w-[45%]">
+                <p className="text-[0.8em] !text-left md:!text-center md-xl:!text-left md-xl:text-[1.5em] text-primary-light font-[600] w-[45%]">
                   Better Efficiency
                 </p>
-                <p className="text-[0.8em] !text-left md:!text-center md-xl:!text-left md-xl:text-[1em] text-primary-light font-[600] w-[45%]">
+                <p className="text-[0.8em] !text-left md:!text-center md-xl:!text-left md-xl:text-[1.5em] text-primary-light font-[600] w-[45%]">
                   Improve ROI
                 </p>
-                <p className="text-[0.8em] !text-left md:!text-center md-xl:!text-left md-xl:text-[1em] text-primary-light font-[600] w-[45%]">
+                <p className="text-[0.8em] !text-left md:!text-center md-xl:!text-left md-xl:text-[1.5em] text-primary-light font-[600] w-[45%]">
                   Reduce Costs
                 </p>
-                <p className="text-[0.8em] !text-left md:!text-center md-xl:!text-left md-xl:text-[1em] text-primary-light font-[600] w-[45%]">
+                <p className="text-[0.8em] !text-left md:!text-center md-xl:!text-left md-xl:text-[1.5em] text-primary-light font-[600] w-[45%]">
                   Maintain Sustainability
                 </p>
               </div>

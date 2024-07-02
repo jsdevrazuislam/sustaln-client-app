@@ -46,7 +46,7 @@ const Hero = () => {
           </p>
           <button
             onClick={() => navigation.push("/about-us")}
-            className="app_button mt-10 md-xl:mt-0 flex items-center gap-[0.6em] z-[99] relative !py-3"
+            className="app_button w-[14.37em] mt-10 md-xl:mt-0 flex items-center justify-center gap-[1.5em] z-[99] relative !py-3"
           >
             Try a Demo
             <FaArrowRightLong />

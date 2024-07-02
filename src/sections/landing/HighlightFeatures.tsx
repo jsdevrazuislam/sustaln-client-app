@@ -8,11 +8,11 @@ function HighlightFeatures() {
     <section className="sec_padding">
       <div className="container">
         <div className="flex flex-col md:flex-row gap-8">
-          <div className="w-full md-xl:w-[45%]">
-            <p className="text-primary-light text-opacity-50 font-[600] text-[0.8em] mb-6">
+          <div className="w-full md-xl:w-1/2">
+            <p className="text-primary-light tracking-[0.15em] font-[400] text-[0.9em] mb-6">
               HIGHLIGHT FEATURES
             </p>
-            <h1 className="text-[1.8em] text-center md:text-left font-[600]">
+            <h1 className="text-[2.25em] text-center md:text-left font-[600]">
               Ensure Adherence to Sustainability Requirements
             </h1>
             <div className="mt-8">
@@ -27,7 +27,7 @@ function HighlightFeatures() {
               ))}
             </div>
           </div>
-          <div className="w-full md-xl:w-[45%] relative sm:mt-14">
+          <div className="w-full md-xl:w-1/2 relative sm:mt-[6.8em]">
             <Image src={HighlightImage.src} alt="sustAIn" className="w-full" width={500} height={500} />
           </div>
         </div>

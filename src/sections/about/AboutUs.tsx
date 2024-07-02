@@ -18,7 +18,7 @@ const AboutUs = () => {
               thirdTitle="based designs"
             />
             <HeadingTitle
-              className="md:text-[2em] hidden md-xl:block whitespace-nowrap  capitalize leading-10 font-[500]"
+              className="md:text-[2.5em] hidden md-xl:block whitespace-nowrap  capitalize leading-[1.2em] font-[500]"
               firstTitle="A better way to Build"
               secondTitle="with
               performance"

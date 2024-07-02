@@ -50,7 +50,7 @@ const Header = () => {
               </li>
             ))}
           </ul>
-          <button className="md:px-8 px-4 py-1 md:py-2 bg-primary-secondary hover:outline-2 hover:outline hover:!bg-transparent hover:outline-primary-secondary text-white rounded-[2em] text-[0.7em] md:text-[0.8em] transition-all duration-300 ease-in-out hover:bg-primary-secondary">Sign Up</button>
+          <button className="md:px-[2.125em] md:py-[0.875em] py-1 bg-primary-secondary hover:outline-2 hover:outline hover:!bg-transparent hover:outline-primary-secondary text-white rounded-[2em] text-[0.7em] md:text-[1em] font-[600] transition-all duration-300 ease-in-out hover:bg-primary-secondary w-[9.5em]">Sign Up</button>
         </div>
       </nav>
     </header>

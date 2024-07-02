@@ -13,8 +13,8 @@ const BorderTitle = ({
   return (
     <div className={cn(className)}>
       <div className="w-20 h-[2px] bg-primary-light" />
-      <p className="font-[400] pt-4">{title}</p>
-      <p className="font-bold">{subTitle}</p>
+      <p className="font-[400] text-[1.563em] pt-4">{title}</p>
+      <p className="font-bold text-[1.563em">{subTitle}</p>
     </div>
   );
 };

@@ -13,13 +13,13 @@ const IServiceCard = [
     icon: <EnvironmentalIcon />,
     title: "Environmental Consulting",
     description:
-      "Collaborate with our talented architects to design your dream space, prioritizing functionality, ergonomics and usability.",
+      "Our environmental consultants ensure your project minimizes its footprint with eco-friendly materials and practices.",
   },
   {
     icon: <GreenBuildingIcon />,
     title: "Green Building Certification Platform",
     description:
-      "Collaborate with our talented architects to design your dream space, prioritizing functionality, ergonomics and usability.",
+      "Through our innovative technology, we ensure that buildings meet stringent environmental criteria, leading to reduced carbon footprints.",
   },
 ];
 

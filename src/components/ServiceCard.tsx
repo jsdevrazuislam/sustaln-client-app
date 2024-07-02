@@ -16,9 +16,9 @@ const ServiceCard = ({ icon, title, description }: IServiceCard) => {
     >
       <div className="flex gap-6 items-center justify-start mb-5">
         <div className="text-primary-light group-hover:text-white">{icon}</div>
-        <h3 className="text-primary-light group-hover:text-white text-[1.3em] md:text-[1.38em] secondary-font font-[600]">{title}</h3>
+        <h3 className="text-primary-light group-hover:text-white text-[1.3em] md:text-[1.40em] secondary-font font-[600]">{title}</h3>
       </div>
-      <p className="text-[.9em]">{description}</p>
+      <p className="text-[1em]">{description}</p>
     </div>
   );
 };

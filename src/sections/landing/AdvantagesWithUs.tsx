@@ -14,7 +14,7 @@ function AdvantagesWithUs() {
           subTitleStyle="max-w-[38em] text-[0.9em] md:text-[1em]"
           titleStyle="max-w-[15em] text-center mx-auto text-[1.8em] md:text-[2.5em]"
         />
-        <div className="flex flex-wrap items-center justify-center gap-8 mt-12">
+        <div className="flex md-xl:border-b border-gray-200 md-xl:!pb-20 flex-wrap items-center justify-center gap-8 md-xl:gap-0 md-xl:justify-between mt-12">
           {advantagesCardData.map((advantage) => (
             <AdvantagesCard
               icon={advantage.icon}

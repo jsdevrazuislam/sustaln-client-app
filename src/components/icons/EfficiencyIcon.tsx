@@ -5,9 +5,9 @@ function EfficiencyIcon() {
     <svg
       xmlns="http://www.w3.org/2000/svg"
       width="288"
-      height="230"
+      height="250"
       fill="none"
-      viewBox="0 0 288 230"
+      viewBox="0 0 288 250"
     >
       <circle
         cx="136.5"

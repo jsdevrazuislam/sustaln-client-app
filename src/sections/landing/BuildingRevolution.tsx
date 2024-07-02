@@ -21,11 +21,12 @@ function BuildingRevolution() {
             <h1 className="text-[1.5em] capitalize md:text-[2.25em] text-white pb-[.8em] font-semibold">
               Join the Green Building Revolution Today!
             </h1>
-            <p className="text-white font-normal text-[0.8em] md:text-[1em] md:max-w-[40em]">
-              Take the first step towards sustainable construction by harnessing
-              the power of GreenCert. Sign up now to streamline your
-              certification process, optimize building performance, and
-              contribute to a greener future.
+            <p className="text-white font-normal text-[0.8em] hidden md:block md:text-[1.25em] md:max-w-[37em]">
+            Take the first step towards sustainable construction by harnessing the power of  {" "}
+<b>s u s t AI n</b>. Sign up now to streamline your certification process, optimize building performance, and contribute to a greener future.
+            </p>
+            <p className="text-white font-normal text-[0.8em] block md:hidden max-w-[37em]">
+            Take the first step towards sustainable construction by harnessing the power of GreenCert. Sign up now to streamline your certification process, optimize building performance, and contribute to a greener future.
             </p>
             <button className="outline_button">
               Sign up for a Free Trial

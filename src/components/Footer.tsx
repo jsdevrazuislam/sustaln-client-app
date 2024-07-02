@@ -9,24 +9,24 @@ const Footer = () => {
   return (
     <footer className="bg-primary-light sec_padding">
       <div className="container">
-        <div className="flex md:flex-row flex-col gap-8 custom-border py-6">
+        <div className="flex md:flex-row flex-col gap-12 custom-border py-6">
           <div className="flex md:flex-row flex-col justify-center md:justify-start text-center md:text-left items-center gap-12 w-full md-xl:w-1/2">
             <div className="w-full custom-border-bottom">
               <p className="text-[0.9em] tracking-widest text-white md:text-opacity-60 uppercase">
                 Get In Touch
               </p>
-              <h1 className="text-[1.5em] md:text-[2.5em] md:max-w-[15em] md:w-[6em] leading-[1.2em] mt-4 mb-4 text-white">
+              <h1 className="text-[1.5em] md:text-[3.5em] md:max-w-[15em] md:w-[6em] leading-[1.2em] mt-4 mb-4 text-white">
                 Have More Questions?
               </h1>
-              <h6 className="text-white font-[500] md:hidden secondary-font">Leave us a Message</h6>
+              <h6 className="text-white text-[1.375em] font-[500] md:hidden secondary-font">Leave us a Message</h6>
               <p className="text-[0.9em] leading-10 text-white text-opacity-60 pb-6 md:pb-0">
                 Write to pulak@thesustain.co
               </p>
             </div>
-              <h6 className="text-white max-w-[25em] w-[350px] hidden md-xl:block font-[500] secondary-font">Leave us a Message</h6>
+              <h6 className="text-white max-w-[25em] w-[350px] hidden md-xl:block font-[500] text-[1.375em] secondary-font">Leave us a Message</h6>
           </div>
           <div className="w-full md-xl:w-1/2">
-          <h6 className="text-white  hidden sm:block md-xl:hidden font-[500] mb-4 secondary-font">Leave us a Message</h6>
+          <h6 className="text-white  hidden sm:block md-xl:hidden font-[500] text-[1.375em] mb-4 secondary-font">Leave us a Message</h6>
             <textarea
               className="w-full bg-[#156762] px-4 py-2 rounded-md border text-white border-white outline-none"
               name=""
