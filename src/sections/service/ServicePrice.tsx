@@ -19,10 +19,10 @@ const ServicePrice = () => {
               style={{
                 boxShadow: "0px 10px 25px 0px #D5FFFD",
               }}
-              className="px-8 py-4 bg-white rounded-md w-full sm:w-[45%] md-xl:w-[30%] transition-all duration-300 ease-in-out hover:translate-y-[-1em] cursor-pointer"
+              className="px-8 py-4 bg-white rounded-md w-full sm:w-[45%] md-xl:w-[30%] transition-all duration-300 ease-in-out hover:translate-y-[-1em] cursor-pointer h-[30em]"
             >
-              <p className="text-[1.25em] font-[600]">{price.title}</p>
-              <p className="text-[0.8em] mt-4">{price.description}</p>
+              <p className="text-[1.25em] font-[600] pt-5">{price.title}</p>
+              <p className="text-[0.9em] mt-4">{price.description}</p>
               <ul className="mt-8">
                 {price.priceData.map((item) => (
                   <div key={item} className="flex items-center gap-4 mb-3">

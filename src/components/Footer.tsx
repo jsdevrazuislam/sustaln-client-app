@@ -18,26 +18,26 @@ const Footer = () => {
               <h1 className="text-[1.5em] md:text-[2.5em] md:max-w-[15em] md:w-[6em] leading-[1.2em] mt-4 mb-4 text-white">
                 Have More Questions?
               </h1>
-              <h6 className="text-white font-[500] md:hidden">Leave us a Message</h6>
+              <h6 className="text-white font-[500] md:hidden secondary-font">Leave us a Message</h6>
               <p className="text-[0.9em] leading-10 text-white text-opacity-60 pb-6 md:pb-0">
                 Write to pulak@thesustain.co
               </p>
             </div>
-              <h6 className="text-white max-w-[25em] w-[350px] hidden md-xl:block font-[500]">Leave us a Message</h6>
+              <h6 className="text-white max-w-[25em] w-[350px] hidden md-xl:block font-[500] secondary-font">Leave us a Message</h6>
           </div>
           <div className="w-full md:w-[45%]">
-          <h6 className="text-white  hidden sm:block md-xl:hidden font-[500] mb-4">Leave us a Message</h6>
+          <h6 className="text-white  hidden sm:block md-xl:hidden font-[500] mb-4 secondary-font">Leave us a Message</h6>
             <textarea
-              className="w-full bg-transparent rounded-md border-2 text-white border-white outline-none"
+              className="w-full bg-[#156762] px-4 py-2 rounded-md border text-white border-white outline-none"
               name=""
               id=""
               cols={30}
               rows={8}
             ></textarea>
-            <div className="mt-4 flex items-center border-2 border-white gap-4 p-2 rounded-md">
+            <div className="mt-4 flex items-center bg-[#156762] border border-white gap-4 p-2 rounded-md">
               <EmailIcon />
               <input
-                className="bg-transparent outline-none flex-1 placeholder:text-white text-white"
+                className="bg-transparent placeholder:font-[200] outline-none flex-1 placeholder:text-white text-white"
                 type="text"
                 placeholder="Your email address"
               />

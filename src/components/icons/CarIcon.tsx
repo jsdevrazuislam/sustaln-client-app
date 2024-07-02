@@ -7,7 +7,7 @@ function CarIcon() {
       height="50"
       fill="none"
       viewBox="0 0 50 50"
-      className="w-16"
+      className="w-28"
     >
       <path
         fill="#2E2E2E"

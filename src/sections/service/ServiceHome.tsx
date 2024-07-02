@@ -1,6 +1,6 @@
 import BorderTitle from "@/components/BorderTitle";
 import React from "react";
-import ServicePerson from "@/assets/service_person.webp";
+import ServicePerson from "@/assets/service_person.png";
 import ServiceCircle from "@/assets/service_circle.webp";
 import ServiceGroup from "@/assets/service_group.png";
 import ServiceTechnologyImage from "@/assets/service_technology.png";
@@ -72,12 +72,11 @@ const ServiceHome = () => {
               />
             </div>
             <div className="w-full md-xl:w-[45%]">
-              <h1 className="text-[1.8em] leading-[1.2em] md:text-[2.3em] mb-8">
+              <h1 className="text-[1.8em] leading-[1.2em] md:text-[2.3em] mb-8 capitalize">
                 The Perfect way to Design Green-Buildings
               </h1>
               <p className="text-[0.9em] md:text-[0.8em] mx-auto md-xl:m-0 max-w-[23em] mb-8">
-                Green Buildings not only need design but also performance
-                optimisation
+              Marrying innovation with resourcefulness!
               </p>
               <div className="mt-8 flex-wrap gap-5 flex items-center">
                 <p className="text-[0.8em] md-xl:text-[1em] text-primary-light font-[600] w-[45%]">

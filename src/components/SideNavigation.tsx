@@ -73,7 +73,7 @@ const SideNavigation = ({ isActive, handleClose, activeItem }: IProps) => {
               </li>
             ))}
           </ul>
-          <div className="flex flex-col justify-center items-center border-t border-gray-300 pt-12 h-full">
+          <div className="flex flex-col justify-center items-center border-t border-gray-300 pt-4 h-full">
             <Image src={ColorLogo.src} width={182} height={82} alt="sustAIn" />
             <p className="text-primary-light text-[0.7em] font-[400]">
               Ver 1.0.1

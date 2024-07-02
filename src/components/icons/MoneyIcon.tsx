@@ -8,7 +8,7 @@ function MoneyIcon() {
       height="48"
       fill="none"
       viewBox="0 0 48 48"
-      className="w-20"
+      className="w-28"
     >
       <path
         stroke="#ECEEF2"

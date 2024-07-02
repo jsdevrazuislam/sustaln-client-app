@@ -18,7 +18,7 @@ function BuildingRevolution() {
       <div className="bg-primary-secondary">
         <div className="container">
           <div className="flex justify-center items-center flex-col text-center">
-            <h1 className="text-[1.5em] md:text-[2.25em] text-white pb-[.8em] font-semibold">
+            <h1 className="text-[1.5em] capitalize md:text-[2.25em] text-white pb-[.8em] font-semibold">
               Join the Green Building Revolution Today!
             </h1>
             <p className="text-white font-normal text-[0.8em] md:text-[1em] md:max-w-[40em]">

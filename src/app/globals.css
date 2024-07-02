@@ -35,9 +35,17 @@ h6 {
   font-family: "Inknut Antiqua", serif;
 }
 
+.primary-font{
+  font-family: "Inknut Antiqua", serif !important;
+}
+
+.secondary-font{
+  font-family: "Plus Jakarta Sans", sans-serif !important;
+}
+
 @layer utilities {
   .container {
-    @apply max-w-[71.25em] mx-auto px-6 py-4;
+    @apply max-w-[77.5em] mx-auto px-6 py-4;
   }
   .app_button {
     @apply px-8 py-2 bg-primary-secondary hover:outline-2 hover:outline hover:!bg-transparent hover:outline-primary-secondary text-white rounded-[2em] text-[0.8em] transition-all duration-300 ease-in-out hover:bg-primary-secondary;

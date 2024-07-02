@@ -17,11 +17,11 @@ function HighlightFeatures() {
             </h1>
             <div className="mt-8">
               {highLightFeatures.map((feature) => (
-                <div key={feature.title} className="flex gap-6 mb-6">
+                <div key={feature.title} className="flex gap-4 mb-6 border border-gray-100 rounded-xl px-6 py-3">
                   {feature.icon}
                   <div>
                     <p className="text-[1.1em] font-[600]">{feature.title}</p>
-                    <p className="text-[0.9em]">{feature.description}</p>
+                    <p className="text-[0.8em] md:text-[0.9em] mt-2">{feature.description}</p>
                   </div>
                 </div>
               ))}
