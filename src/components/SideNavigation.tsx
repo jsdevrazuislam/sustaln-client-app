@@ -40,7 +40,7 @@ const SideNavigation = ({ isActive, handleClose, activeItem }: IProps) => {
         } bg-white text-black w-[80%] max-w-[18em] transition-[left] duration-300 ease-in-out overflow-y-auto h-full z-[100000]`}
       >
         <div className="flex flex-col">
-          <div className="flex justify-between px-6 py-8 border-b border-gray-300">
+          {/* <div className="flex justify-between px-6 py-8 border-b border-gray-300">
             <div>
               <Image
                 src={UserAvatar.src}
@@ -56,8 +56,8 @@ const SideNavigation = ({ isActive, handleClose, activeItem }: IProps) => {
             <button className="text-[0.8em] px-4 py-1 bg-primary-secondary h-fit rounded-full text-white">
               Sign Out
             </button>
-          </div>
-          <ul className="flex flex-col gap-8 mt-8 px-6 h-[50vh]">
+          </div> */}
+          <ul className="flex flex-col gap-8 mt-8 px-6 h-[70vh]">
             {navMenus.map((item, inx) => (
               <li key={inx} className="flex items-center gap-6">
                 {item.icon}
@@ -75,9 +75,9 @@ const SideNavigation = ({ isActive, handleClose, activeItem }: IProps) => {
           </ul>
           <div className="flex flex-col justify-center items-center border-t border-gray-300 pt-4 h-full">
             <Image src={ColorLogo.src} width={182} height={82} alt="sustAIn" />
-            <p className="text-primary-light text-[0.7em] font-[400]">
+            {/* <p className="text-primary-light text-[0.7em] font-[400]">
               Ver 1.0.1
-            </p>
+            </p> */}
           </div>
         </div>
       </div>

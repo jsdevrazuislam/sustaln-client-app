@@ -10,7 +10,7 @@ const Footer = () => {
     <footer className="bg-primary-light sec_padding">
       <div className="container">
         <div className="flex md:flex-row flex-col gap-8 custom-border py-6">
-          <div className="flex md:flex-row flex-col justify-center md:justify-start text-center md:text-left items-center gap-12 w-full md:w-[45%]">
+          <div className="flex md:flex-row flex-col justify-center md:justify-start text-center md:text-left items-center gap-12 w-full md-xl:w-1/2">
             <div className="w-full custom-border-bottom">
               <p className="text-[0.9em] tracking-widest text-white md:text-opacity-60 uppercase">
                 Get In Touch
@@ -25,7 +25,7 @@ const Footer = () => {
             </div>
               <h6 className="text-white max-w-[25em] w-[350px] hidden md-xl:block font-[500] secondary-font">Leave us a Message</h6>
           </div>
-          <div className="w-full md:w-[45%]">
+          <div className="w-full md-xl:w-1/2">
           <h6 className="text-white  hidden sm:block md-xl:hidden font-[500] mb-4 secondary-font">Leave us a Message</h6>
             <textarea
               className="w-full bg-[#156762] px-4 py-2 rounded-md border text-white border-white outline-none"
@@ -46,7 +46,7 @@ const Footer = () => {
           </div>
         </div>
         <div className="mt-8 flex md:flex-row text-center flex-col gap-14">
-          <div className="w-full flex flex-col justify-center items-center md:w-[45%] md:block">
+          <div className="flex flex-col justify-center items-center w-full md-xl:w-5/12 md:block">
             <Link href="/">
               <Image
                 src={Logo.src}
@@ -64,7 +64,7 @@ const Footer = () => {
               Copyright@sustain{new Date().getFullYear()}. All rights reserved.
             </p>
           </div>
-          <ul className="flex items-center justify-center gap-6 md:justify-start md-xl:gap-20 w-full md:w-[45%]">
+          <ul className="flex items-center justify-between  w-full md-xl:w-7/12">
             {navMenus.map((nav) => (
               <li key={nav.path}>
                 <Link

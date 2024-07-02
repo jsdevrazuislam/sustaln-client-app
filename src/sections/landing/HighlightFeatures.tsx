@@ -12,8 +12,8 @@ function HighlightFeatures() {
             <p className="text-primary-light text-opacity-50 font-[600] text-[0.8em] mb-6">
               HIGHLIGHT FEATURES
             </p>
-            <h1 className="text-[1.8em] text-center md:text-left">
-              Ensure adherence to sustainability requirements
+            <h1 className="text-[1.8em] text-center md:text-left font-[600]">
+              Ensure Adherence to Sustainability Requirements
             </h1>
             <div className="mt-8">
               {highLightFeatures.map((feature) => (

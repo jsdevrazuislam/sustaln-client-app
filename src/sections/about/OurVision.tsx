@@ -9,7 +9,7 @@ const OurVision = () => {
   return (
     <>
       <Aos />
-      <section className="pt-[3em] pb-[7em] relative overflow-hidden">
+      <section className="pt-[3em] md:pt-[9em] pb-[7em] relative overflow-hidden md-xl:pt-0">
         <div className="md-xl:border-b border-gray-200 md-xl:pb-[10em]">
           <div className="container">
             <BorderTitle title="Our" subTitle="Vision" />
@@ -19,7 +19,7 @@ const OurVision = () => {
               </h1>
             </div>
           </div>
-          <div className="md-xl:pl-[2.81em] pl-[0.5em] pr-[2.5em] py-4 md-xl:pr-[5.31em] px-10">
+          <div className="md-xl:pl-[4.70em] pl-[0.5em] pr-[2.5em] py-4 md-xl:pr-[5.31em] px-10">
             <Image
               src={FullChart.src}
               alt="Chart Background"

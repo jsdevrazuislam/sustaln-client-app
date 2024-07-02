@@ -20,8 +20,8 @@ const navMenus = [
         icon:<PersonIcon />
     },
     {
-        label:"Our Work",
-        path:"/our-work",
+        label:"Services",
+        path:"/services",
         icon:<WorkIcon />
     },
 ];

@@ -17,23 +17,23 @@ const Header = () => {
   }
 
   return (
-    <header className="bg-primary-light relative z-[1000] custom-border">
+    <header className="bg-primary-light relative z-[1000] custom-border h-[4.4em] md:h-auto">
       <SideNavigation
         isActive={activeNavigation}
         handleClose={handleNavigation}
       />
-      <nav className="container">
+      <nav className="container md:!pr-[4em]">
         <div className="flex justify-between items-center">
           <button onClick={handleNavigation} className="block md:hidden">
             <MenuIcon className="block md:hidden" />
           </button>
-          <Link href="/">
+          <Link href="/" className="ml-6 md:ml-0">
             <Image
               src={Logo.src}
               alt="sustAIn"
               width={131}
               height={27}
-              className="w-[100px] md:w-[131px]"
+              className="w-[5.43em] md:w-[8.18em]"
             />
           </Link>
           <ul className="md:flex items-center gap-12 hidden">
@@ -50,7 +50,7 @@ const Header = () => {
               </li>
             ))}
           </ul>
-          <button className="app_button">Sign Up</button>
+          <button className="md:px-8 px-4 py-1 md:py-2 bg-primary-secondary hover:outline-2 hover:outline hover:!bg-transparent hover:outline-primary-secondary text-white rounded-[2em] text-[0.7em] md:text-[0.8em] transition-all duration-300 ease-in-out hover:bg-primary-secondary">Sign Up</button>
         </div>
       </nav>
     </header>
