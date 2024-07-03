@@ -19,38 +19,38 @@ const ServiceHome = () => {
   return (
     <>
       <Aos />
-      <section className="sec_padding">
+      <section className="py-8">
         <div className="container">
-          <BorderTitle title="Our" subTitle="Services" />
-          <div className="flex md-xl:flex-row justify-center md-xl:justify-start items-center md-xl:items-start text-center md-xl:text-left flex-col gap-8 mt-6">
-            <div className="w-full mt-10 md-xl:w-1/2 relative flex md-xl:block justify-center items-center">
+          <BorderTitle className="mb-8" title="Our" subTitle="Services" />
+          <div className="flex md-xl:flex-row justify-center md-xl:justify-start items-center md-xl:items-start text-center md-xl:text-left flex-col gap-8">
+            <div className="w-full md-xl:w-1/2 relative flex md-xl:block justify-center items-center">
                 <Image
                   src={ServicePerson.src}
                   alt="sustAIn"
                   width={520}
                   height={300}
-                  className="w-[16em] xl:w-[26em] relative z-[99] mt-10"
+                  className="w-[16em] sm:w-[20em] xl:w-[24em] md:right-[2%] md-xl:right-[-10%] relative z-[99] mt-12 md-xl:mt-[4.5em]"
                 />
                 <Image
                   src={ServiceCircle.src}
                   alt="sustAIn"
                   width={520}
                   height={300}
-                  className="w-[20em] xl:w-[31em] absolute top-[-12%]"
+                  className="w-[20em] xl:w-[31em] absolute top-[-5%]"
                 />
                 <Image
                   src={ServiceGroup.src}
                   alt="sustAIn"
                   width={520}
                   height={300}
-                  className="w-[20em] xl:w-[31em]  absolute top-[-20%]"
+                  className="w-[20em] xl:w-[31em]  absolute top-[-5%]"
                 />
               <Image
                 src={ServiceTechnologyImage.src}
                 alt="sustAIn"
                 width={268}
                 height={82}
-                className="absolute hidden md:block bottom-[45%] right-[9%] md-xl:right-[12%]"
+                className="absolute hidden md-xl:block bottom-[45%] right-[9%] md-xl:right-[4%]"
                 data-aos="fade-right"
                 data-aos-duration="800"
               />
@@ -59,7 +59,7 @@ const ServiceHome = () => {
                 alt="sustAIn"
                 width={268}
                 height={82}
-                className="absolute hidden md:block bottom-[-2%] md:bottom-[-11%]  md-xl:bottom-0 md-xl:left-[12%] z-[99]"
+                className="absolute hidden md-xl:block bottom-[-2%] md:bottom-[-11%]  md-xl:bottom-0 md-xl:left-[20%] z-[99]"
                 data-aos="fade-bottom"
                 data-aos-duration="3000"
               />
@@ -68,7 +68,7 @@ const ServiceHome = () => {
                 alt="sustAIn"
                 width={268}
                 height={82}
-                className=" absolute hidden md:block bottom-[52%] left-[11%] md-xl:left-[-13%]"
+                className=" absolute hidden md-xl:block bottom-[48%] left-[-11%]"
                 data-aos="fade-left"
                 data-aos-duration="2000"
               />
@@ -77,7 +77,7 @@ const ServiceHome = () => {
                 alt="sustAIn"
                 width={177}
                 height={46}
-                className="absolute md:hidden w-[9em] bottom-[45%] right-[-4%] h-20 object-contain"
+                className="absolute md-xl:hidden w-[9em] bottom-[45%] right-[-4%] sm:right-[24%] h-20 object-contain"
                 data-aos="fade-right"
                 data-aos-duration="800"
               />
@@ -86,7 +86,7 @@ const ServiceHome = () => {
                 alt="sustAIn"
                 width={177}
                 height={46}
-                className="absolute md:hidden w-[10em] bottom-[-6%] z-[99] h-20 object-contain"
+                className="absolute md-xl:hidden w-[10em] bottom-[-6%] md:bottom-[-2%] z-[99] h-20 object-contain"
                 data-aos="fade-bottom"
                 data-aos-duration="3000"
               />
@@ -95,14 +95,14 @@ const ServiceHome = () => {
                 alt="sustAIn"
                 width={177}
                 height={46}
-                className=" absolute md:hidden w-[9em] bottom-[52%] left-[-4%] h-20 object-contain"
+                className=" absolute md-xl:hidden w-[9em] bottom-[52%] left-[-4%] sm:left-[22%] h-20 object-contain"
                 data-aos="fade-left"
                 data-aos-duration="2000"
               />
             </div>
             <div className="w-full md-xl:w-1/2">
               <HeadingTitle
-                className="leading-[1.2em] text-[2.5em] font-[600] mb-8 capitalize hidden md-xl:block"
+                className="leading-[1.2em] text-[2.5em] font-[600] mb-12 capitalize hidden md-xl:block"
                 firstTitle="The Perfect way to"
                 secondTitle="Design Green-Buildings"
               />
@@ -110,10 +110,10 @@ const ServiceHome = () => {
                 className="text-[1.8em] mt-10 md-xl:hidden leading-[1.2em] mb-2 capitalize"
                 firstTitle="Our Services"
               />
-              <p className="text-[1.1em] font-[500] mx-auto md-xl:m-0 max-w-[23em] mb-8">
+              <p className="text-[1.1em] text-left whitespace-nowrap font-[500] mb-12">
                 Marrying innovation with resourcefulness!
               </p>
-              <div className="mt-8 flex-wrap gap-5 flex items-center">
+              <div className="mt-8 flex-wrap gap-8 flex items-center">
                 <p className="text-[0.8em] !text-left md:!text-center md-xl:!text-left md-xl:text-[1.5em] text-primary-light font-[600] w-[45%]">
                   Better Efficiency
                 </p>

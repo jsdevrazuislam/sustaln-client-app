@@ -52,7 +52,7 @@ h6 {
   }
 
   .outline_button{
-    @apply hover:outline-primary-light bg-primary-light  hover:!bg-transparent hover:outline-2 hover:outline text-white rounded-[5.2em] text-[0.9em] px-5 py-2 mt-8 mb-8 hover:bg-primary-light transition-all font-[600] duration-300 ease-in-out
+    @apply hover:outline-primary-light bg-primary-light  hover:!bg-transparent hover:outline-2 hover:outline text-white rounded-[5.2em] text-[1em] px-5 py-2 mt-8 mb-8 hover:bg-primary-light transition-all font-[600] duration-300 ease-in-out
   }
 
   .sec_padding {

@@ -5,7 +5,7 @@ import React from "react";
 
 const AboutUs = () => {
   return (
-    <section className="sec_padding overflow-hidden">
+    <section className="pt-8 overflow-hidden">
       <div className="container">
         <BorderTitle title="About" subTitle="s u s t AI n" />
         <div className="flex md:flex-row flex-col text-center md:text-left justify-center md:justify-start md:items-start items-center gap-6 mt-10">

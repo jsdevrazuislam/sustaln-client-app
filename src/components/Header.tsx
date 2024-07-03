@@ -17,7 +17,7 @@ const Header = () => {
   }
 
   return (
-    <header className="bg-primary-light relative z-[1000] custom-border h-[4.4em] md:h-auto">
+    <header className="bg-primary-light relative z-[1000] custom-border h-[4em] md:h-auto">
       <SideNavigation
         isActive={activeNavigation}
         handleClose={handleNavigation}
@@ -27,7 +27,7 @@ const Header = () => {
           <button onClick={handleNavigation} className="block md:hidden">
             <MenuIcon className="block md:hidden" />
           </button>
-          <Link href="/" className="ml-6 md:ml-0">
+          <Link href="/" className="ml-10 md:ml-0">
             <Image
               src={Logo.src}
               alt="sustAIn"
@@ -50,7 +50,7 @@ const Header = () => {
               </li>
             ))}
           </ul>
-          <button className="md:px-[2.125em] md:py-[0.875em] py-1 bg-primary-secondary hover:outline-2 hover:outline hover:!bg-transparent hover:outline-primary-secondary text-white rounded-[2em] text-[0.7em] md:text-[1em] font-[600] transition-all duration-300 ease-in-out hover:bg-primary-secondary w-[9.5em]">Sign Up</button>
+          <button className="md:px-[2.125em] md:py-[0.875em] py-1 bg-primary-secondary hover:outline-2 hover:outline hover:!bg-transparent hover:outline-primary-secondary text-white rounded-[2em] text-[0.7em] md:text-[1em] font-[600] transition-all duration-300 ease-in-out hover:bg-primary-secondary w-[7.5em] md:w-[9.5em]">Sign Up</button>
         </div>
       </nav>
     </header>

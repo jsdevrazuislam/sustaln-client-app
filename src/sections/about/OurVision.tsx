@@ -19,7 +19,7 @@ const OurVision = () => {
               </h1>
             </div>
           </div>
-          <div className="md-xl:pl-[4.70em] pl-[0.5em] pr-[2.5em] py-4 md-xl:pr-[5.31em] px-10">
+          <div className="md-xl:pl-[2.5em] pl-[0.5em] pr-[2.5em] py-4 md-xl:pr-[5.31em] px-10">
             <Image
               src={FullChart.src}
               alt="Chart Background"

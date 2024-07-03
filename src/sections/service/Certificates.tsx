@@ -18,7 +18,7 @@ const Certificates = () => {
           subTitle="We have the right certifications, accreditations and memberships to assist you in your projects"
           subTitleStyle="max-w-full text-[0.9em] font-[300]"
         />
-        <div className="flex items-center flex-wrap justify-center gap-[0.7em] md-xl:justify-between mt-8">
+        <div className="flex items-center flex-wrap justify-center gap-4 md:gap-[0.7em] md-xl:justify-between mt-8">
           <Image src={Logo1.src} alt="sustAIn" width={233} height={150} className="w-[8em] h-[3.5em] md:h-[9.37em] object-contain md:w-[14.25em]" />
           <Image src={Logo2.src} alt="sustAIn" width={143} height={150} className="w-[4.93em] h-[3.5em] md:h-[9.37em] object-contain md:w-[9em]" />
           <Image src={Logo3.src} alt="sustAIn" width={190} height={150} className="w-[7.02em] h-[4.12em] md:h-[9.37em] object-contain md:w-[12em]" />

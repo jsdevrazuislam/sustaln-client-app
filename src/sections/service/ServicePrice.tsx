@@ -5,7 +5,7 @@ import { FaCheck } from "react-icons/fa6";
 
 const ServicePrice = () => {
   return (
-    <section className="sec_padding">
+    <section>
       <div className="container">
         <SecTitle
           title="Our Diverse Services"

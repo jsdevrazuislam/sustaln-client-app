@@ -28,7 +28,7 @@ function BuildingRevolution() {
             <p className="text-white font-normal text-[0.8em] block md:hidden max-w-[37em]">
             Take the first step towards sustainable construction by harnessing the power of GreenCert. Sign up now to streamline your certification process, optimize building performance, and contribute to a greener future.
             </p>
-            <button className="outline_button">
+            <button className="outline_button w-[13.25em] !p-2">
               Sign up for a Free Trial
             </button>
           </div>

@@ -9,7 +9,7 @@ import SvgBackground from "@/components/Bg";
 const OurService = () => {
   return (
     <>
-    <section className="py-12 md:py-0 relative">
+    <section className="py-12 md:pb-12 relative">
       <Image
         className="absolute md-xl:top-10 left-0 md-xl:left-20 hidden md:block"
         src={ServiceImage.src}
