@@ -13,7 +13,7 @@ const highLightFeatures = [
     icon: <CarIcon />,
     title: "End to End Integration",
     description:
-      "Minimize project expenses by streamlining processes, automating repetitive tasks, and providing insights for resource optimization.",
+      "Our platform enables end to end integration of design and operation, allowing stakeholders to stay on track with their sustainability metric during all stages.",
   },
   {
     icon: <MoneyPassIcon />,

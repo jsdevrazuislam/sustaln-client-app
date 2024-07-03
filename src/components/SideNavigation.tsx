@@ -25,7 +25,7 @@ const SideNavigation = ({ isActive, handleClose, activeItem }: IProps) => {
   }, [isActive]);
 
   return (
-    <div className="md:hidden">
+    <div className="md-xl:hidden">
       <div
         className={`fixed top-0 left-0 w-full h-full ${
           isActive

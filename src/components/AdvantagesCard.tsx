@@ -12,7 +12,9 @@ const AdvantagesCard = ({ icon, title, description }: IAdvanceCard) => {
       <div>{icon}</div>
       <div className="mt-1 text-center">
         <h2 className="font-[700] text-[1.3em] leading-[2em]">{title}</h2>
-        <p className="text-[0.9em] mt-2">{description}</p>
+        <p className="text-[0.9em] mt-2" dangerouslySetInnerHTML={{
+          __html: description
+        }} />
       </div>
     </div>
   );

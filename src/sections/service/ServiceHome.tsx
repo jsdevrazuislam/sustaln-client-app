@@ -19,9 +19,9 @@ const ServiceHome = () => {
   return (
     <>
       <Aos />
-      <section className="py-8">
+      <section className="py-12">
         <div className="container">
-          <BorderTitle className="mb-8" title="Our" subTitle="Services" />
+          <BorderTitle className="mb-14" title="Our" subTitle="Services" />
           <div className="flex md-xl:flex-row justify-center md-xl:justify-start items-center md-xl:items-start text-center md-xl:text-left flex-col gap-8">
             <div className="w-full md-xl:w-1/2 relative flex md-xl:block justify-center items-center">
                 <Image
@@ -102,7 +102,7 @@ const ServiceHome = () => {
             </div>
             <div className="w-full md-xl:w-1/2">
               <HeadingTitle
-                className="leading-[1.2em] text-[2.5em] font-[600] mb-12 capitalize hidden md-xl:block"
+                className="leading-[1.2em] text-[2.5em] font-[600] mb-16 capitalize hidden md-xl:block"
                 firstTitle="The Perfect way to"
                 secondTitle="Design Green-Buildings"
               />
@@ -110,10 +110,10 @@ const ServiceHome = () => {
                 className="text-[1.8em] mt-10 md-xl:hidden leading-[1.2em] mb-2 capitalize"
                 firstTitle="Our Services"
               />
-              <p className="text-[1.1em] text-left whitespace-nowrap font-[500] mb-12">
+              <p className="text-[1.1em] text-left md:text-center md-xl:text-left whitespace-nowrap font-[500] mb-16">
                 Marrying innovation with resourcefulness!
               </p>
-              <div className="mt-8 flex-wrap gap-8 flex items-center">
+              <div className="mt-8 flex-wrap gap-8 md-xl:gap-12 flex items-center">
                 <p className="text-[0.8em] !text-left md:!text-center md-xl:!text-left md-xl:text-[1.5em] text-primary-light font-[600] w-[45%]">
                   Better Efficiency
                 </p>

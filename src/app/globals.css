@@ -71,7 +71,7 @@ h6 {
   background-repeat: no-repeat;
   background-position: bottom;
   background-size: cover;
-  height: 100dvh;
+  height: 49.438em;
 }
 
 .custom-border {
@@ -102,15 +102,11 @@ h6 {
 
 @media (max-width:62em){
   .about_certification_bg {
-    height: 65dvh;
+    height: 100dvh;
     background-size: contain;
   }
 }
-@media (max-width:48em){
-  .about_certification_bg {
-    height: 75dvh;
-  }
-}
+
 
 @media (max-width: 39em) {
   .hero_bg {

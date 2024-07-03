@@ -8,17 +8,17 @@ const advantagesCardData = [
   {
     icon: <EfficiencyIcon/>,
     title: "Efficiency",
-    description: "Save time and resources throughout the design and certification process, allowing more focus on decision-making and execution.",
+    description: "Save time and resources throughout the <br /> design and certification process, allowing <br /> more focus on decision-making and execution.",
   },
   {
     icon: <ReduceCostsIcon/>,
     title: "Reduce Costs",
-    description: "Minimize project expenses by streamlining processes, automating repetitive tasks, and providing insights for resource optimization.",
+    description: "Minimize project expenses by streamlining <br /> processes, automating repetitive tasks, and <br /> providing insights for resource optimization.",
   },
   {
     icon: <ImprovRoiIcon/>,
     title: "Improve ROI",
-    description: " Enhance return on investment by optimizing building performance, minimizing operational costs, and increasing asset value.",
+    description: " Enhance return on investment by optimizing <br /> building performance, minimizing operational <br /> costs, and increasing asset value.",
   },
 ]
 

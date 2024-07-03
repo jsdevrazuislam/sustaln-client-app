@@ -31,7 +31,7 @@ const Hero = () => {
 
   return (
     <section className="bg-primary-light hero_bg overflow-hidden">
-      <div className="container flex md-xl:flex-row flex-col-reverse items-center gap-8 md-xl:!pt-20 md-xl:!pb-40 relative">
+      <div className="container md-xl:h-[45.875em] flex md-xl:flex-row flex-col-reverse items-center gap-8 md-xl:!pt-20 md-xl:!pb-40 relative">
         <div className="w-full md-xl:w-1/2  relative pb-24 md-xl:pb-0 flex md-xl:block justify-center items-center text-center flex-col md-xl:text-left mt-24 md-xl:mt-0">
           <HeadingTitle
             className="text-[1.5em] whitespace-nowrap md:text-[2.5em] text-white mb-4 md:leading-[1.2em] font-[600] capitalize"
@@ -70,8 +70,8 @@ const Hero = () => {
           className="relative w-full z-[99] md-xl:w-1/2 mt-8 md-xl:mt-0"
           onMouseLeave={() => set({ xys: [0, 0, 1] })}
           onMouseMove={(e) => {
-            const { clientX: x, clientY: y } = e;
-            return set({ xys: calc(x, y) });
+            const { clientX: x, clientY: y } = e
+            return set({ xys: calc(x, y) })
           }}
           style={{ transform: props.xys.interpolate(trans) }}
         >
@@ -130,7 +130,7 @@ const Hero = () => {
       </div>
       <SvgBackground className="!hidden md-xl:block" />
     </section>
-  );
+  )
 };
 
 export default Hero;
